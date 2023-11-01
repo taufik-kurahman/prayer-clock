@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Prayer Clock</string>
+    <string name="initial_location_rationale">This App requires location permission!</string>
+    <string name="fine_location_revoked_rationale">Thanks for letting me access your approximate location. But getting your exact location is important for this app. Please grant us fine location. Thank you!</string>
+    <string name="fine_and_coarse_location_revoked_rationale">Getting your exact location is important for this app. Please grant us fine location. Thank you!</string>
+    <string name="initial_request_permissions_button_text">Allow Permissions</string>
+    <string name="fine_location_revoked_button_text">Allow Precise Location</string>
+    <string name="open_app_settings_button_text">Open App Settings</string>
+    <string name="err_msg_internal_server_error">Internal server error, please try again latter!</string>
+</resources>

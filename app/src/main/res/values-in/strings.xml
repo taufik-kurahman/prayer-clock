@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Prayer Clock</string>
+    <string name="initial_location_rationale">Aplikasi ini membutuhkan izin untuk mengakses lokasi!</string>
+    <string name="fine_location_revoked_rationale">Terima kasih anda telah mengizinkan aplikasi mengakses perkiraan lokasi. Tetapi mendapatkan lokasi akurat anda sangat penting untuk aplikasi ini. Mohon izinkan akses lokasi akurat. Terima kasih!</string>
+    <string name="fine_and_coarse_location_revoked_rationale">Mendapatkan lokasi akurat anda sangat penting untuk aplikasi ini. Mohon izinkan akses lokasi akurat. Terima kasih!</string>
+    <string name="initial_request_permissions_button_text">Berikan Izin</string>
+    <string name="fine_location_revoked_button_text">Berikan Izin Lokasi Akurat</string>
+    <string name="open_app_settings_button_text">Buka Pengaturan Aplikasi</string>
+    <string name="err_msg_internal_server_error">Ada masalah di server, mohon coba kembali nanti!</string>
+</resources>
