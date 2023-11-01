@@ -343,6 +343,14 @@ fun DrawScope.drawPrayerTimesArea(
                     }
                 }
 
+                PrayerTime.DZUHUR -> {
+                    if (currentHoursAngle in colorStartDegree..360f && meridiem == Calendar.PM || currentHoursAngle <= colorEndDegree && meridiem == Calendar.PM) {
+                        animatedColor
+                    } else {
+                        staticColor
+                    }
+                }
+
                 PrayerTime.ASHAR, PrayerTime.MAGHRIB -> {
                     if (currentHoursAngle in colorStartDegree..colorEndDegree && meridiem == Calendar.PM) {
                         animatedColor
